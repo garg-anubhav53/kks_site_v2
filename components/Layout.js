@@ -7,188 +7,51 @@ export default function Main() {
       <section className="w-full text-black">
         <div className="max-w-8xl mx-auto inline-block items-center p-3 pt-0 lg:flex lg:flex-wrap lg:pt-4">
           <div className="lg:w-3/6">
-            <h2 className="max-w-xl lg:text-[4.2em] text-3xl font-bold leading-none text-black inline-block">
-              Vel quis feugiat pharetra diam.
+            <h2 className="max-w-xl lg:text-[4.2em] text-3xl font-bold leading-none text-black inline-block" id="aboutdiv">
+              Khelo Khilo Seekho is a lending library for toys.
+      
             </h2>
 
             <p className="mt-6 max-w-2xl text-xl font-semibold text-[#404040]">
-              Lorem ipsum urna, consectetur adipiscing elit. Urna risus
-              hendrerit dignissim duis fringilla sit. Lacus porttitor neque
-              ipsum.
+              This free program will help children have early and frequent access to toys that will help them learn skills necessary for their development.
+              We will aim to provide different toys to each child every few weeks. 
             </p>
           </div>
-          <div className="mb-20 mt-44 hidden w-full flex-col lg:mt-12 lg:inline-block lg:w-3/6">
-            <img src="/images/placeholder.png" alt="Hero" />
+          <div className="mb-20 mt-44 w-full flex-col lg:mt-12 lg:inline-block lg:w-3/6">
+            <img src="../images/kkshomepage.png" alt="" />
           </div>
-          <div className="my-20 inline-block w-full flex-col lg:mt-0 lg:hidden lg:w-2/5">
+          {/* <div className="my-20 inline-block w-full flex-col lg:mt-0 lg:hidden lg:w-2/5">
             <img src="/images/placeholder.png" alt="image" />
-          </div>
+          </div> */}
         </div>
-        <div className="mt-0 bg-white lg:mt-40">
-          <div className="mx-auto">
-            <div className="mx-auto px-5 py-24 lg:px-24">
-              <div className="my-10 flex w-full flex-col text-center">
-                <h2 className="mb-5 text-2xl font-bold text-black lg:text-3xl">
-                  In ullamcorper magna nunc, non molestie augue feugiat eget.
-                </h2>
-              </div>
-              <div
-                className="
-                grid grid-cols-2
-                gap-16
-                text-center
-                lg:grid-cols-6"
-              >
-                <div className="hidden items-center justify-center lg:inline-block">
-                  <img
-                    src="/images/segment.png"
-                    alt="Segment"
-                    className="block h-24 object-contain"
-                  />
-                </div>
-                <div className="hidden items-center justify-center lg:inline-block">
-                  <img
-                    src="/images/segment.png"
-                    alt="Segment"
-                    className="block h-24 object-contain"
-                  />
-                </div>
-                <div className="flex items-center justify-center">
-                  <img
-                    src="/images/segment.png"
-                    alt="Segment"
-                    className="block h-24 object-contain"
-                  />
-                </div>
-                <div className="flex items-center justify-center">
-                  <img
-                    src="/images/segment.png"
-                    alt="Segment"
-                    className="block h-24 object-contain"
-                  />
-                </div>
-                <div className="hidden items-center justify-center lg:inline-block">
-                  <img
-                    src="/images/segment.png"
-                    alt="Segment"
-                    className="block h-24 object-contain"
-                  />
-                </div>
-                <div className="hidden items-center justify-center lg:inline-block">
-                  <img
-                    src="/images/segment.png"
-                    alt="Segment"
-                    className="block h-24 object-contain"
-                  />
-                </div>
-              </div>
-              <div className="my-12 flex w-full flex-col pl-8 text-center">
-                <a
-                  href="/"
-                  className="
-                  underline-blue
-                  mb-8
-                  mt-6
-                  text-xl
-                  font-bold
-                  text-black
-                "
-                >
-                  Ut eleifend.
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="text-black">
-            <div
-              className="
-              max-w-9xl
-              mx-auto
-              flex
-              flex-col
-              items-center
-              justify-center
-              px-5
-            "
-            >
-              <div className="mr-0 mb-6 w-full py-4 text-center lg:w-2/3">
-                <h2 className="mb-4 text-4xl font-bold sm:text-5xl">
-                  Sem enim cursus orci at.
-                </h2>
-                <p className="mb-4 text-lg leading-relaxed">
-                  In ullamcorper magna nunc, non molestie augue feugiat eget.
-                  Mauris, vitae et, vitae et cursus amet tincidunt feugiat
-                  nulla. Senectus maecenas diam risus sodales dictum eu. Eget
-                  cursus sit bibendum pulvinar faucibus vitae nam sed. Faucibus
-                  vel laoreet.
-                </p>
-                <a href="/" className="underline-blue font-semibold">
-                  Learn more
-                </a>
-              </div>
-              <img
-                className="
-                lg:w-5/7
-                mb-40
-                hidden
-                w-5/6
-                rounded object-cover
-                object-center
-                lg:inline-block 
-                lg:w-4/6
-              "
-                src="/images/placeholder.png"
-                alt="img"
-              />
 
-              <img
-                className="
-              mb-24
-              inline-block
-              w-5/6
-              rounded
-              object-cover object-center
-              lg:hidden
-              lg:w-4/6 
-            "
-                src="/images/placeholder.png"
-                alt="img"
-              />
-            </div>
-          </div>
-        </div>
-        <div className="mx-auto px-5 pt-32 pb-24 lg:px-24">
+        <div className="mx-auto px-5 pt-32 pb-24 lg:px-24" id="contactdiv">
           <div className="my-3 flex w-full flex-col text-left lg:text-center">
             <h2 className="bold mb-8 text-4xl font-bold leading-tight text-black lg:text-6xl">
-              Lorem ipsum elit sit unar,{" "}
-              <br className="hidden lg:inline-block" />
-              consectetur adipiscing elit.
+              Please contact us if you would like to learn more{" "}
             </h2>
           </div>
           <div className="flex w-full flex-col text-left lg:text-center">
             <h3 className="text-2xl text-black">
-              Lorem ipsum arcu, consectetur adipiscing elit. Viverra elementum
-              pellentesque <br className="hidden lg:inline-block" />
-              tortor, luctus blandit sed dolor et, semper. Posuere vitae vitae,
-              ac mus. Arcu quis feugiat.
+              As we get started we would love to hear about how you may be interested in joining the program or working with us
             </h3>
           </div>
-          <div className="flex w-full flex-row justify-center pt-24 text-center">
+          <div className="flex w-full flex-row justify-center pt-18 text-center">
             <a
-              href="/"
-              className="underline-blue px-8 text-xl font-semibold text-black"
+              href="mailto:playblossomlearn@gmail.com"
+              className="underline-blue px-8 text-xxl font-semibold text-black"
             >
-              Ut eleifend.
+              Email us!
             </a>
-            <a
+            {/* <a
               href="/"
               className="underline-gray px-6 text-xl font-semibold text-gray-700"
             >
-              Tempus in.
-            </a>
+              Other contact method coming soon
+            </a> */}
           </div>
         </div>
-        <div className="invisible mx-auto flex max-w-6xl p-3 pb-32 lg:visible lg:px-2">
+        {/* <div className="invisible mx-auto flex max-w-6xl p-3 pb-32 lg:visible lg:px-2">
           <img src="/images/placeholder.png" alt="img" />
         </div>
         <div className="bg-white text-black">
@@ -299,7 +162,7 @@ export default function Main() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
     </div>
   );

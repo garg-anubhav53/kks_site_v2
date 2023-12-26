@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <>
       <footer className="grotesk bg-[#f9fbfb]">
-        <div className="max-w-8xl mx-auto px-5 py-24 text-black">
+        {/* <div className="max-w-8xl mx-auto px-5 py-24 text-black">
           <div className="order-first flex flex-wrap text-left">
             <div className="w-full px-4 md:w-2/4 lg:w-1/5">
               <h2 className="mb-3 text-lg tracking-widest">Est.</h2>
@@ -115,16 +115,15 @@ export default function Footer() {
               </a>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="px-2">
           <div className="max-w-8xl mx-auto px-5 py-6">
-            <h2 className="text-black">Diam egestas ultrices odio vitae.</h2>
+            <h2 className="text-black">Khelo Khilo Sekho will be filed as not for profit organization.</h2>
             <div>
               <h2 className="my-4 text-sm">
-                Lorem ipsum accumsan arcu, consectetur adipiscing elit. Dolor
-                proin tempor sed fermentum sit{" "}
-                <br className="hidden lg:inline-block" /> pretium pellentesque.
-                Dictumst risus elementum dignissim risus, lobortis molestie.
+                The terms of condition, privacy policy and cookie policy will be available at another time.{" "}
+                {/* <br className="hidden lg:inline-block" /> pretium pellentesque.
+                Dictumst risus elementum dignissim risus, lobortis molestie. */}
               </h2>
             </div>
             <div className="absolute right-0 -mt-24 hidden text-black lg:inline-block">
